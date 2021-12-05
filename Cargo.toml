@@ -1,0 +1,19 @@
+[package]
+name = "tu2"
+version = "0.1.0"
+authors = ["ntropy83 <admin@pandorawrks.de"]
+edition = "2021"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+serde = "1"
+serde_derive = "1"
+yew = { path = "yew" }
+gloo = "0.3"
+
+[dependencies.web-sys]
+version = "0.3"
+features = [
+	"HtmlInputElement",
+	"HtmlTextAreaElement",
+]
